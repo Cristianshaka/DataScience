@@ -5,8 +5,8 @@ df_matriz = pd.DataFrame(matriz2, columns=['A', 'B', 'C'])
 df_dicionario = pd.DataFrame({'A': [1, 4, 7], 'B': [2, 5, 8], 'C': [3, 6, 9]})
 
 #O pandas também permite fácil acesso a índices e operações com os DataFrames
-print(df_dicionario.shape)
-print(df_dicionario.columns)
+print(df_dicionario.shape) #df.shape
+print(df_dicionario.columns) #df.columns todas
 
 # Acessando colunas e linhas especificas
 print('Todas as linhas da coluna A:')
